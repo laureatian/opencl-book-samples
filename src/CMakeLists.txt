@@ -11,7 +11,7 @@ SUBDIRS(Chapter_2/HelloWorld
 
 IF(WIN32 OR UNIX AND NOT APPLE)
 	# Sinewave uses wgl or glx
-	SUBDIRS(Chapter_12/Sinewave)
+#	SUBDIRS(Chapter_12/Sinewave)
 ENDIF(WIN32 OR UNIX AND NOT APPLE)
 
 IF(WIN32)
